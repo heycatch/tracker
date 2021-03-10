@@ -1,5 +1,5 @@
 import textwrap
-from itertools import izip_longest
+from itertools import zip_longest
 
 from .tracker import __file__ as SOURCE_FILE
 
