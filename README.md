@@ -18,7 +18,7 @@ pip install tracker
 or installable via git clone and setup.py
 
 ```bash
-git clone git@github.com:madisonmay/tracker.git
+git clone git@github.com:vexilology/tracker.git
 python setup.py install
 ```
 

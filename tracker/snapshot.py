@@ -35,7 +35,7 @@ class Snapshot(object):
         lines = textwrap.dedent("".join(code)).split('\n')[:-1]
         line_numbers = range(code_start + 1, code_end + 1)
         text = ""
-        for line_number, code_line in izip_longest(line_numbers, code):
+        for line_number, code_line in zip_longest(line_numbers, code):
             text += "  {line_number}{code}".format(
                 line_number=str(line_number).ljust(8),
                 code=(code_line or "\n")
