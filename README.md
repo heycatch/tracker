@@ -65,9 +65,11 @@ So when the second developer goes to run a routine deposit, they see that the ba
 
 ```python
 from balance_sheet import BalanceSheet, add_expense, deposit
+
 sheet = BalanceSheet()
 deposit(sheet, 100)
-print sheet.balance
+
+print(sheet.balance)
 ```
 
 Using tracker's replay functionality, we can rewind and see what lines of code changed the sheet's balance and help our second developer uncover their simple mistake.
@@ -75,7 +77,7 @@ Using tracker's replay functionality, we can rewind and see what lines of code c
 
 ```python
 for snapshot in sheet.replay():
-    print snapshot
+    print(snapshot)
 ```
 
 which outputs:
