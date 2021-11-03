@@ -9,13 +9,13 @@ It's not always clear what lines of code introduce ugly bugs.  By walking throug
 Installation
 ------------
 
-Tracker is conveniently available via pip:
+~~Tracker is conveniently available via pip:~~
 
 ```bash
 pip install tracker
 ```
 
-or installable via git clone and setup.py
+Pip package have errors, install via git clone and setup.py
 
 ```bash
 git clone git@github.com:vexilology/tracker.git
