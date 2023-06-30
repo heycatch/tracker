@@ -18,7 +18,7 @@ pip install tracker
 Pip package have errors, install via git clone and setup.py
 
 ```bash
-git clone git@github.com:vexilology/tracker.git
+git clone git@github.com:heycatch/tracker.git
 python setup.py install
 ```
 

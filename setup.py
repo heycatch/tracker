@@ -10,5 +10,5 @@ setup(
         Track the history of python object state to hunt down elusive bugs.
     """,
     license="MIT License (See LICENSE)",
-    url="https://github.com/vexilology/tracker"
+    url="https://github.com/heycatch/tracker"
 )
